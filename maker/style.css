@@ -1,0 +1,53 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+canvas {
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.displayPanel {
+	display: inline-block;
+	padding-left: 10px;
+	width: 48%;
+	/*background-color: lightgreen;*/
+	overflow-y: scroll;
+}
+
+.groupPanel {
+	/*background-color: lightblue;*/
+	border: solid 2px;
+	padding: 5px;
+	display: block;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td {
+	text-align: center;
+}
+
+button {
+	margin: 5px;
+}
